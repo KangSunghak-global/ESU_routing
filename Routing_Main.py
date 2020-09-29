@@ -70,6 +70,9 @@ try :
                 RoutingSet += code.Routing(Signal,SrcPort,Message)
 
         code.Routing_Function(i,VariableSet, RoutingSet)
+        VariableSet = ""
+        RoutingSet = ""
+
     #print(RoutingSet)
 
     ReadExcel.close()
