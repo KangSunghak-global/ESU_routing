@@ -70,8 +70,8 @@ try :
                 RoutingSet += code.Routing(Signal,SrcPort,Message)
 
         code.Routing_Function(i,VariableSet, RoutingSet)
-        VariableSet = ""
-        RoutingSet = ""
+        VariableSet = "" # to avoid redundancy code
+        RoutingSet = ""  # to avoid redundancy code
 
     #print(RoutingSet)
 
